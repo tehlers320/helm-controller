@@ -35,7 +35,7 @@ require (
 // https://github.com/helm/helm/pull/10486 to solve memory leak and issues as
 // described in https://github.com/fluxcd/helm-controller/issues/351.
 // TODO: Remove once Helm v3.8.1 is released.
-replace helm.sh/helm/v3 v3.8.0 => github.com/hiddeco/helm/v3 v3.0.0-20220128105410-34ef0a7a5811
+replace helm.sh/helm/v3 v3.8.0 => github.com/tehlers320/helm/v3 v3.8.1-0.20220201223051-c5aa101d8c37
 
 require (
 	cloud.google.com/go v0.99.0 // indirect
